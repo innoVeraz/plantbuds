@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        backgroundGreen: "#2f5b4c",
         foreground: "var(--foreground)",
+        primaryButton: "#f6b683",
+        secondary: "#191414",
+        accent: "#FFC107",
+        textLight: "#ede4da",
+      },
+      animation: {
+        swing: "swing 2s ease-in-out infinite",
+      },
+      keyframes: {
+        swing: {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(10deg)" },
+        },
       },
     },
   },
