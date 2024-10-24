@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function ServiceWatering() {
   return (
-    <div className="h-screen ">
+    <section className="h-screen flex flex-col gap-10 justify-center items-center bg-backgroundGreen md:gap-20">
       <div className=" ">
-        <Heading level={1} variant="light" size="text-6xl">
+        <Heading level={1} variant="light" size="text-6xl" fontFamily="sergio">
           Care when you cant be there
         </Heading>
       </div>
@@ -17,6 +17,6 @@ export default function ServiceWatering() {
         <SwingingKettle />
         <Image src={plant} alt="plant" width={300} />
       </div>
-    </div>
+    </section>
   );
 }

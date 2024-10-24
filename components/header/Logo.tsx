@@ -1,3 +1,9 @@
+import Heading from "../Heading";
+
 export default function Logo() {
-  return <h2 className="text-5xl font-extrabold text-textLight">Plant Buds</h2>;
+  return (
+    <Heading fontFamily="geist" level={1} size="text-5xl" variant="light">
+      Plant Buds
+    </Heading>
+  );
 }

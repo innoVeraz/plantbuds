@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${SergiotrendyRegular.variable} antialiased`}
+        className={`${geistSans.variable} ${SergiotrendyRegular.variable} antialiased `}
       >
         {children}
       </body>

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ServiceReplanting() {
   return (
-    <div className="relative h-screen w-full">
+    <section className="relative h-screen w-full flex flex-col">
       {/* Videon som bakgrund */}
       <video
         autoPlay
@@ -16,11 +16,11 @@ export default function ServiceReplanting() {
       </video>
 
       {/* Headern centrerad och längst ner */}
-      <div className="absolute bottom-0 left-0 w-full flex justify-center items-center z-10">
-        <Heading level={1} variant="light" size="text-6xl">
+      <div className="absolute bottom-12 left-0 w-full flex justify-center items-center z-10 md:bottom-24">
+        <Heading level={1} variant="light" size="text-6xl" fontFamily="sergio">
           We will do the dirty work
         </Heading>
       </div>
-    </div>
+    </section>
   );
 }
