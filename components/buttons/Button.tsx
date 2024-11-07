@@ -19,7 +19,7 @@ export default function Button({ children, variant, onClick }: ButtonProps) {
     <button
       onClick={onClick}
       className={clsx(
-        "px-9 py-5 rounded-lg font-extrabold focus:outline-none",
+        "px-5 py-3 rounded-lg font-extrabold focus:outline-none",
         buttonStyles[variant]
       )}
     >

@@ -7,7 +7,7 @@ import Logo from "@/components/header/Logo";
 export default function Home() {
   return (
     <div className="text-center">
-      <header className="bg-opacity-100 flex justify-center absolute w-full z-10 pt-40">
+      <header className="bg-opacity-100 flex justify-center absolute w-full z-10 pt-10">
         <Logo />
       </header>
       <HeroSection />
