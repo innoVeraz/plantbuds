@@ -1,9 +1,9 @@
 import Heading from "@/components/Heading";
 import Image from "next/image";
 import React from "react";
-import bug from "../../../../public/bug.svg";
-import analyze from "../../../../public/analyze.png";
-import recycle from "../../../../public/recycle.svg";
+import bug from "/bug.svg";
+import analyze from "/analyze.png";
+import recycle from "/recycle.svg";
 
 export default function ServiceSickPlants() {
   return (
