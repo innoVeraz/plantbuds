@@ -3,12 +3,12 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "../fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
 const SergiotrendyRegular = localFont({
-  src: "./fonts/SergiotrendyRegular-p72da.ttf",
+  src: "../fonts/SergiotrendyRegular-p72da.ttf",
   variable: "--font-sergio",
   weight: "400",
 });

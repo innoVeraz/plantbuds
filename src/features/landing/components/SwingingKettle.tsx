@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import kettle from "../../../../public/swing.svg";
+import kettle from "/public/swing.svg";
 
 export default function SwingingKettle() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import SwingingKettle from "./SwingingKettle";
-import plant from "../../../../public/plant.svg";
-import Heading from "@/components/Heading";
+import plant from "/public/plant.svg";
+import Heading from "@/components/ui/headings/Heading";
 import Image from "next/image";
 
 export default function ServiceWatering() {

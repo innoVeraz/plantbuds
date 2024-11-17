@@ -1,4 +1,4 @@
-import Heading from "../Heading";
+import Heading from "../headings/Heading";
 
 export default function Logo() {
   return (

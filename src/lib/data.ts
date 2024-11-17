@@ -1,7 +1,3 @@
-//maybe a booking button????
-//do I need to have a bool for the card to be flipped or not?
-//add all text data
-
 export const servicesData = [
   {
     title: "WE REPLANT",
@@ -21,5 +17,24 @@ export const servicesData = [
     image: "Houston, TX",
     description:
       "You can chat with us about your plants, you can also ask our smart plant assistant for help at any hours of the day for SOS advice.",
+  },
+] as const;
+
+export const sections = [
+  {
+    name: "Home",
+    hash: "#home",
+  },
+  {
+    name: "Replant",
+    hash: "#replant",
+  },
+  {
+    name: "Care",
+    hash: "#care",
+  },
+  {
+    name: "Health",
+    hash: "#health",
   },
 ] as const;
