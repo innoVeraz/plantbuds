@@ -8,8 +8,8 @@ import Image from "next/image";
 
 import Logo from "@/components/ui/header/Logo";
 
-import Button from "@/components/ui/buttons/Button";
 import LoginDialog from "@/features/login/components/login-dialog";
+import { Button } from "@/components/ui/button";
 
 export default function LandingPage() {
   return (
@@ -43,7 +43,7 @@ export default function LandingPage() {
             Plant services to your doorstep
           </Heading>
           <div className="flex justify-center gap-10 ">
-            <Button variant="primary">NEW HERE</Button>
+            <Button variant="default">NEW HERE</Button>
             <LoginDialog />
           </div>
         </div>
